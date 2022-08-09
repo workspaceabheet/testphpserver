@@ -2,7 +2,7 @@
 <?php
 require_once 'site.php';
 // --- This is your Firebase URL
-$url = 'https://titanium9969-default-rtdb.firebaseio.com';
+$url = 'https://titanium9969.firebaseio.com';
 // --- Use your token from Firebase here
 /*$token = 'xxxxxxxxxxxxxxx';*/
 $token = 'FrR5M30YoQsL3ms82Ox5VxfkntfD7zeF5nFWzS8m';
@@ -14,6 +14,7 @@ $firebasePath = '/rt.json';
 /// --- Making calls
 $fb = new fireBase($url,$token);
 $response = $fb->get($firebasePath);
+echo($response);
 sleep(2);
 ?>
 
