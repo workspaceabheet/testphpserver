@@ -15,6 +15,7 @@ $firebasePath = '/rt.json';
 $fb = new fireBase($url,$token);
 $response = $fb->get($firebasePath);
 echo($response);
+echo("HI!")
 sleep(2);
 ?>
 
