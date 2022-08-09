@@ -1,6 +1,6 @@
 
 <?php
-require_once 'firebaseLib.php';
+require_once 'site.php';
 // --- This is your Firebase URL
 $url = 'https://titanium9969-default-rtdb.firebaseio.com';
 // --- Use your token from Firebase here
