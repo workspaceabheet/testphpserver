@@ -10,7 +10,7 @@ $token = 'FrR5M30YoQsL3ms82Ox5VxfkntfD7zeF5nFWzS8m';
 $arduino_data = $_GET['arduino_data'];
 // --- $arduino_data_post = $_POST['name'];
 // --- Set up your Firebase url structure here
-$firebasePath = '/rt.json';
+$firebasePath = '/';
 /// --- Making calls
 $fb = new fireBase($url,$token);
 $response = $fb->push($firebasePath, $arduino_data);
