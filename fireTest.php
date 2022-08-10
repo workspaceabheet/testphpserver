@@ -2,7 +2,7 @@
 <?php
 require_once 'site.php';
 // --- This is your Firebase URL
-$url = 'https://titanium9969.firebaseio.com';
+$url = 'https://titanium9969.firebaseio.com/';
 // --- Use your token from Firebase here
 /*$token = 'xxxxxxxxxxxxxxx';*/
 $token = 'FrR5M30YoQsL3ms82Ox5VxfkntfD7zeF5nFWzS8m';
